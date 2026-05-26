@@ -11,6 +11,8 @@
   ),
 )
 
+#set page(columns: 1)
+
 #abstract[
   The proliferation of large language models capable of generating fluent text in multiple languages raises concerns about the detection of machine-generated text (MGT), particularly in low-resource African languages. This paper investigates the detection of machine-generated isiZulu text using fine-tuned AfroXLMR, a multilingual transformer optimised for African languages. We construct a balanced dataset of human-written and machine-generated text in both isiZulu and English, generated using Gemma 4. We evaluate monolingual, multilingual, and cross-lingual detection configurations, achieving an F1 score of 0.975 on isiZulu monolingual detection and 0.737 on cross-lingual transfer (English→isiZulu). Using LIME explainability analysis, we compare which linguistic features drive detection in each setting. Our findings demonstrate that AfroXLMR provides highly effective MGT detection for isiZulu and that cross-lingual transfer from English is feasible but substantially degraded, highlighting the importance of language-specific training for morphologically rich languages.
 ]
