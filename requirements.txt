@@ -1,0 +1,11 @@
+transformers==4.46.0
+torch==2.5.0
+datasets==3.1.0
+scikit-learn==1.5.2
+lime==0.2.0.1
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.9.2
+scipy==1.14.1
+accelerate==1.0.1
+google-generativeai==0.8.3

@@ -1,0 +1,5 @@
+run,model,lang,total_errors,false_positives,false_negatives,error_rate
+xlmr_base_zul,xlm-roberta-base,zul,12,12,0,0.0591
+xlmr_base_eng,xlm-roberta-base,eng,1,0,1,0.0048
+xlmr_base_combined,xlm-roberta-base,combined,7,7,0,0.0169
+xlmr_base_cross,xlm-roberta-base,cross,93,0,93,0.4581
